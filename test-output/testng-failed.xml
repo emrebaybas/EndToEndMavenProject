@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="pack.Listeners"/>
+  </listeners>
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="pack.LoginnPageTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- pack.LoginnPageTest -->
+      <class name="pack.HP_ValidateNavigationBarTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- pack.HP_ValidateNavigationBarTest -->
+      <class name="pack.HP_ValidateFreeCancellationTextTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- pack.HP_ValidateFreeCancellationTextTest -->
+      <class name="pack.HomePageTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- pack.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,10 @@
+23:40:34.336 [main] INFO  pack.HomePageTest - successfully landed on the home page and window maximized
+23:40:34.646 [main] INFO  pack.HomePageTest - successfully closed the browser
+23:50:14.962 [main] INFO  pack.HomePageTest - successfully landed on the home page and window maximized
+23:50:20.305 [main] INFO  pack.HomePageTest - successfully closed the browser
+23:50:31.248 [main] INFO  pack.HP_ValidateFreeCancellationTextTest - successfully landed on the home page and window maximized
+23:50:31.318 [main] INFO  pack.HP_ValidateFreeCancellationTextTest - successfully validated that Free cancellation on most rooms test is displayed
+23:50:35.434 [main] INFO  pack.HP_ValidateFreeCancellationTextTest - successfully closed the browser
+23:50:46.549 [main] INFO  pack.HP_ValidateNavigationBarTest - successfully landed on the home page and window maximized
+23:50:46.618 [main] INFO  pack.HP_ValidateNavigationBarTest - Successfully validated that navigation bar is displayed
+23:50:46.899 [main] INFO  pack.HP_ValidateNavigationBarTest - successfully closed the browser

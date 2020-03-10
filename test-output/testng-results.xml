@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="5" passed="4" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-10T03:29:05Z" name="Suite" finished-at="2020-03-10T03:29:54Z" duration-ms="49407">
+    <groups>
+    </groups>
+    <test started-at="2020-03-10T03:29:05Z" name="Test" finished-at="2020-03-10T03:29:54Z" duration-ms="49407">
+      <class name="pack.HP_ValidateNavigationBarTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:pack.HP_ValidateNavigationBarTest@241e8ea6]" started-at="2020-03-09T23:29:26Z" name="initialize" finished-at="2020-03-09T23:29:37Z" duration-ms="11025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:pack.HP_ValidateNavigationBarTest@241e8ea6]" started-at="2020-03-09T23:29:37Z" name="basePageNavigation" finished-at="2020-03-09T23:29:37Z" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:pack.HP_ValidateNavigationBarTest@241e8ea6]" started-at="2020-03-09T23:29:37Z" name="quitBrowser" finished-at="2020-03-09T23:29:41Z" duration-ms="4125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- pack.HP_ValidateNavigationBarTest -->
+      <class name="pack.LoginnPageTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:pack.LoginnPageTest@767e20cf]" started-at="2020-03-09T23:29:41Z" name="initialize" finished-at="2020-03-09T23:29:52Z" duration-ms="10862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="loginPage(java.lang.String, java.lang.String)[pri:0, instance:pack.LoginnPageTest@767e20cf]" started-at="2020-03-09T23:29:52Z" name="loginPage" data-provider="getData" finished-at="2020-03-09T23:29:54Z" duration-ms="1759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emre]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcd1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method signature="loginPage(java.lang.String, java.lang.String)[pri:0, instance:pack.LoginnPageTest@767e20cf]" started-at="2020-03-09T23:29:54Z" name="loginPage" data-provider="getData" finished-at="2020-03-09T23:29:54Z" duration-ms="306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eniste]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Asd4321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:pack.LoginnPageTest@767e20cf]" started-at="2020-03-09T23:29:54Z" name="quitBrowser" finished-at="2020-03-09T23:29:54Z" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- pack.LoginnPageTest -->
+      <class name="pack.HP_ValidateFreeCancellationTextTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:pack.HP_ValidateFreeCancellationTextTest@542e560f]" started-at="2020-03-09T23:29:10Z" name="initialize" finished-at="2020-03-09T23:29:22Z" duration-ms="11296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:pack.HP_ValidateFreeCancellationTextTest@542e560f]" started-at="2020-03-09T23:29:22Z" name="basePageNavigation" finished-at="2020-03-09T23:29:22Z" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:pack.HP_ValidateFreeCancellationTextTest@542e560f]" started-at="2020-03-09T23:29:22Z" name="quitBrowser" finished-at="2020-03-09T23:29:26Z" duration-ms="4167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- pack.HP_ValidateFreeCancellationTextTest -->
+      <class name="pack.HomePageTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:pack.HomePageTest@626c44e7]" started-at="2020-03-09T23:29:05Z" name="initialize" finished-at="2020-03-09T23:29:05Z" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[null value in entry: url=null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at pack.HomePageTest.initialize(HomePageTest.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:pack.HomePageTest@626c44e7]" started-at="2020-03-09T23:29:10Z" name="basePageNavigation" finished-at="2020-03-09T23:29:10Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:pack.HomePageTest@626c44e7]" started-at="2020-03-09T23:29:10Z" name="quitBrowser" finished-at="2020-03-09T23:29:10Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- pack.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

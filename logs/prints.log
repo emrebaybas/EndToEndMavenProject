@@ -1,0 +1,4 @@
+23:50:57.675 [main] INFO  pack.LoginnPageTest - successfully landed on the login page and window maximized
+23:50:59.449 [main] INFO  pack.LoginnPageTest - successfully verified with two sets of invalid username and password login is unsuccessful
+23:50:59.734 [main] INFO  pack.LoginnPageTest - successfully verified with two sets of invalid username and password login is unsuccessful
+23:50:59.909 [main] INFO  pack.LoginnPageTest - successfully closed the browser
